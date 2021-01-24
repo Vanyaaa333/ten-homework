@@ -24,10 +24,10 @@ public class Shop{
         return listOfProducts;
     }
 
-    void remove(Product product){
+    void remove(int id){
         for(Product temporaryProduct:listOfProducts){
-            if(temporaryProduct.equals(product)){
-                listOfProducts.remove(product);
+            if(temporaryProduct.getId() == id){
+                listOfProducts.remove(temporaryProduct);
                 return;
             }
         }

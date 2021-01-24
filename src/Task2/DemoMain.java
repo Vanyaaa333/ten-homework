@@ -26,7 +26,7 @@ public class DemoMain {
         shop1.printList();
         System.out.println("----------------");
 
-        shop1.remove(new Product(2, 25, "Apple"));
+        shop1.remove(2);
         shop1.printList();
         System.out.println("-----------------");
 
